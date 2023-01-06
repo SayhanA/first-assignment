@@ -14,6 +14,14 @@
     border-radius: 5px;
     padding: 0 20px;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.primary-btn:focus{
+    background-color: rgb(201, 19, 19);
+}
+.primary-btn:hover{
+    color: green;
 }
 .primary-header{
     font-family: 'Abril Fatface', cursive;
@@ -82,6 +90,7 @@ header{
     z-index: 1;
     border-radius: 50%;
     background-color: rgba(255, 186, 59, 0.412);
+    transition: all 0.3s ease ease-in-out;
 }
 .about-img:hover{
     /* box-shadow: 10px 10px 2px rgba(255, 166, 0, 0.241),; */
@@ -163,11 +172,13 @@ input:hover .fa-solid{
     box-sizing: 2px 2px 40px black;
     border-radius: 10px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.129);
+    transition: all 0.3s all;
 }
 .skill-list>li:hover{
     background-color: beige;
     box-shadow: 2px 2px 20px rgba(255, 255, 0, 0.179);
     perspective: 95;
+    cursor: pointer;
 }
 .skill-list>li:first-child{
     font-size: 30px;
@@ -195,4 +206,9 @@ input:hover .fa-solid{
 }
 .skill-list>li>p{
     padding-bottom: 50px;
+}
+.vscode{
+    background: url(images/icons/vscode.png);
+    margin-bottom: -40px;
+    margin-top: 30px;
 }
