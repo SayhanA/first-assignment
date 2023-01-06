@@ -15,6 +15,23 @@
     padding: 0 20px;
     border: none;
 }
+.primary-header{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 40px;
+    color: #151414;
+}
+.primary-para{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #444343;
+    word-spacing: 2px;
+}
+section{
+    margin: 10px 150px;
+}
 body{
     width: 100%;
 }
@@ -37,17 +54,79 @@ header{
     text-align: right;
 }
 .header-para{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: right;
-    color: #444343;
     text-align: right;
     padding:20px 0px 32px 120px;
-    word-spacing: 2px;
 }
 .btn-div{
     display: flex;
     justify-content: flex-end;
     width: 100%;
+}
+
+
+/* About Section Starts Here */
+.about{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 300px;
+    position: relative;
+}
+.about>div{
+    /* width: 50%; */
+}
+.about-img{
+    /* width: 60%; */
+    width: 600px;
+    height: 600px;
+    overflow: visible;
+    z-index: 1;
+    /* background:url(images/person.png) no-repeat center center/cover; */
+    /* border: 1px solid; */
+    border-radius: 50%;
+    background-color: rgba(255, 186, 59, 0.412);
+
+}
+.about-img>img{
+    width: 650px;
+    position: absolute;
+    bottom: 0px;
+    left: -25px;
+}
+.about-text{
+    width: 40%;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 50px;
+}
+.about-text>h2{
+    padding-top: 0px;
+    padding-right:90px;
+    line-height: 50px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    margin-bottom: 25px;
+}
+.about .primary-para{
+    padding-bottom: 20px;
+}
+.about-checkbox{
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 20px;
+}
+.about-checkbox .primary-para{
+    line-height: 40px;
+    padding-left: 10px;
+}
+.about-checkbox>div>input{
+    /* visibility: hidden; */
+}
+
+.icon-div .fa-solid{
+    color: rgb(143, 225, 19);
+}
+input:hover .fa-solid{
+    color: red;
 }
