@@ -93,8 +93,12 @@ header{
     overflow: visible;
     z-index: 1;
     border-radius: 50%;
+    cursor: pointer;
     background-color: rgba(255, 186, 59, 0.412);
     transition: all 0.3s ease ease-in-out;
+}
+.about-img:hover{
+    background-color: rgba(255, 0, 0, 0.177);
 }
 
 .about-img>img{
@@ -228,7 +232,7 @@ input:hover .fa-solid{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin-bottom: 125px;
+    margin-bottom: 50px;
     gap: 20px;
 }
 .plan-list>div{
@@ -266,7 +270,7 @@ input:hover .fa-solid{
 .bland{
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png)no-repeat center center/cover;
     background-blend-mode: hard-light;
-    margin:50px 0 150px 0;
+    margin:100px 0 200px 0;
     line-height: 150px;
     width: 100%;
     border-radius: 10px;
@@ -284,6 +288,10 @@ input:hover .fa-solid{
     margin:0 80px;
     background: white;
     color: rgb(255, 72, 0);
+}
+.plan .plan-list .fa-solid,.fa-regular{
+    font-size: 50px;
+    color: #ffae57;
 }
 
 /* footer starts here */
@@ -338,6 +346,10 @@ footer>div{
     color: rgb(255, 25, 0);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+}
+.footer-info .fa-brands:hover{
+    color: rgb(1, 21, 242);
+    font-size: 32px;
 }
 .subscrib{
     display: flex;
