@@ -218,20 +218,60 @@ input:hover .fa-solid{
 
 
 /* My-plane statrs here */
-.skills{
-}
-.skills-list{
-}
-.skills-list>li{
+.plan{
 
-    
+}
+.plan>h2{
+    padding: 50px 0;
+}
+.plan-list{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+.plan-list>div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.plan-list>div>b{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    padding:40px 10px 10px 10px ;
+}
+.plan-list>div>p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #444343;
+    word-spacing: 2px;
 }
 
 /* bland Starts Here */
 .bland{
-    background:linear-gradient(to right ,rgb(138, 3, 3), rgba(0, 255, 0, 0.478)), url(images/watch.png)no-repeat center center/cover;
-    background-blend-mode: saturation;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png)no-repeat center center/cover;
+    background-blend-mode: hard-light;
     margin:50px 0;
     line-height: 150px;
     width: 100%;
+    border-radius: 10px;
+}
+.bland-title{
+    width: 500px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 60px 0 0 80px;
+}
+.bland>button{
+    padding: 0 30px;
+    margin:0 80px;
+    background: white;
+    color: rgb(255, 72, 0);
 }
