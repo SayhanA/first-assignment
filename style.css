@@ -126,12 +126,9 @@ header{
     flex-flow: column;
     padding-bottom: 20px;
 }
-.about-checkbox .primary-para{
+/* .about-checkbox .primary-para{
     line-height: 40px;
     padding-left: 10px;
-}
-.about-checkbox>div>input{
-    /* visibility: hidden; */
 }
 
 .icon-div .fa-solid{
@@ -139,7 +136,7 @@ header{
 }
 input:hover .fa-solid{
     color: red;
-}
+} */
 
 
 
@@ -171,7 +168,7 @@ input:hover .fa-solid{
     margin: 0 200px;
 }
 .skill-list>li{
-    width: 300px;
+    width: 260px;
     display: flex;
     flex-flow: column nowrap;
     width: px;
@@ -225,22 +222,30 @@ input:hover .fa-solid{
 
 }
 .plan>h2{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .plan-list{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     margin-bottom: 125px;
-    cursor: pointer;
+    gap: 20px;
 }
 .plan-list>div{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.167);
+    transition: all 0.3s;
 }
-
+.plan-list>div:hover{
+    background-color: antiquewhite;
+}
 .plan-list>div>b{
     font-weight: 700;
     font-size: 30px;
@@ -334,9 +339,6 @@ footer>div{
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
-.fa-brands:hover{
-    color: beige;
-}
 .subscrib{
     display: flex;
     flex-flow:column nowrap;
@@ -408,4 +410,9 @@ input:checked[type="checkbox"]::before{
 }
 label input:checked ~ span{
     color: rgb(59, 184, 5);
+}
+
+/* phone icon */
+.fa-phone{
+    padding: 0 5px 0 0;
 }
