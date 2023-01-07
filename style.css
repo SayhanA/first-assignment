@@ -160,6 +160,7 @@ input:hover .fa-solid{
     padding-top: 30px;
     text-align: center;
 }
+
 .skill-list{
     display: flex;
     flex-flow: row nowrap;
@@ -325,9 +326,9 @@ footer>div{
     gap: 20px;
     padding-bottom: 100px;
 }
-.fa-brands{
+.footer-info .fa-brands{
     font-size: 30px;
-    color: red;
+    color: rgb(255, 25, 0);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
