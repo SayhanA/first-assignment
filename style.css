@@ -212,8 +212,8 @@ input:hover .fa-solid{
     padding-bottom: 50px;
 }
 .vscode{
-    background: url(images/icons/vscode.png)no-repeat center center/cover;
-    margin: 100px 0 0 50px;
+    background: url(images/icons/vscode.png);
+    margin: 30px 0 -40px 0px;
 }
 
 
