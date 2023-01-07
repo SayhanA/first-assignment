@@ -139,6 +139,10 @@ input:hover .fa-solid{
     color: red;
 }
 
+
+
+
+
 /* Skills Sector Starts Here */
 .skills{
     display: flex;
@@ -356,13 +360,17 @@ footer>div{
 
 
 /* checkbos style */
+
+
 input[type="checkbox"]{
     position: relative;
-    top: 10px;
-    width: 40px;
-    height: 40px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right:20px ;
     -webkit-appearance: none;
     transition: .5s;
+    cursor: pointer;
 }
 input[type="checkbox"]::before{
     content: '';
@@ -371,15 +379,27 @@ input[type="checkbox"]::before{
     left: 0;
     width: 100%;
     height: 100%;
-    border: 4px solid #262226;
+    border: 3px solid #ffae57;
     box-sizing: border-box;
     transition: .5s;
+    margin-left: 5px;
+
 }
 input:checked[type="checkbox"]::before{
     /* background-color: red; */
     border-left: none;
     border-top: none;
-    width: 20px;
+    width: 10px;
     border-color: greenyellow;
-    transform:rotate(45deg) translate(5px, -10px)
+    transform:rotate(45deg) translate(5px, -5px)
+}
+
+.about-checkbox>.center>label{
+    line-height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.about-checkbox>.center>label:hover{
+    color: rgb(168, 121, 2);
 }
