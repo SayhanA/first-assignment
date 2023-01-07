@@ -296,12 +296,15 @@ footer>div{
     letter-spacing: .5px;
     word-spacing: 2px;
 }
-.footer-info>h2{
+.footer-info>h2,.sub-title{
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     padding: 130px 0 16px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
 }
+
 .footer-info>p{
     font-weight: 400;
     font-size: 18px;
@@ -328,4 +331,22 @@ footer>div{
 }
 .fa-brands:hover{
     color: beige;
+}
+.subscrib{
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+#mail{
+    line-height: 70px;
+    width: 325px;
+    border:2px solid silver;
+    border-radius: 10px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.subscrib>button{
+    margin:0;
 }
