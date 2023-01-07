@@ -84,9 +84,7 @@ header{
     margin: 300px 200px 0px 200px;
     position: relative;
 }
-.about>div{
 
-}
 .about-img{
     width: 555px;
     height: 555px;
@@ -96,9 +94,7 @@ header{
     background-color: rgba(255, 186, 59, 0.412);
     transition: all 0.3s ease ease-in-out;
 }
-.about-img:hover{
-    /* box-shadow: 10px 10px 2px rgba(255, 166, 0, 0.241),; */
-}
+
 .about-img>img{
     width: 600px;
     position: absolute;
@@ -229,6 +225,7 @@ input:hover .fa-solid{
     flex-flow: row nowrap;
     justify-content: space-between;
     margin-bottom: 125px;
+    cursor: pointer;
 }
 .plan-list>div{
     display: flex;
@@ -236,6 +233,7 @@ input:hover .fa-solid{
     justify-content: center;
     align-items: center;
 }
+
 .plan-list>div>b{
     font-weight: 700;
     font-size: 30px;
